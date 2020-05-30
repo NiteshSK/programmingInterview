@@ -1,4 +1,4 @@
-package com.mycompany.assessment.java;
+package com.practice.codingInterviewBook.SumProblems.TwoSum;
 
 public class TwoSumForSortedArray {
 /*

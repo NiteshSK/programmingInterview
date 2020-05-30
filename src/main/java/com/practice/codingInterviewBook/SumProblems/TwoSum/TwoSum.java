@@ -1,5 +1,6 @@
 package com.mycompany.assessment.java;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /*
@@ -38,7 +39,7 @@ public class TwoSum {
         if(array == null || array.length == 0){
             return null;
         }
-        HashMap<Integer,Integer> hashMap = new HashMap<>();
+        HashMap<Integer,Integer> hashMap = new HashMap<Integer, Integer>();
         int[] ret = new int[2];
         for(int i = 0;i<array.length;i++){
             if(hashMap.containsKey(array[i])){
