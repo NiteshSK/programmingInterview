@@ -4,24 +4,26 @@ We tried to pull all the test cases in a program.
 
 Questions Solved :
   > Add one in an Array of integer : [https://github.com/NiteshSK/programmingInterview/blob/master/src/main/java/com/practice/interviewBit/Add1.java]
+  
     > input : [1,2,3,4]
     > output : [1,2,3,5]
   
-  > Sum Problems.
+  > Sum Problems : [https://github.com/NiteshSK/programmingInterview/tree/master/src/main/java/com/practice/codingInterviewBook/SumProblems] 
   
-    > Two Sum Problem : [https://github.com/NiteshSK/programmingInterview/tree/master/src/main/java/com/practice/codingInterviewBook/SumProblems/TwoSum]
+    > Two Sum Problem 
       > input : 
       > output :
       
-    > Three Sum Problem : [https://github.com/NiteshSK/programmingInterview/blob/master/src/main/java/com/practice/codingInterviewBook/SumProblems/ThreeSum/ThreeSum.java]
+    > Three Sum Problem
       > input :
       > output :
       
-    > Four Sum Problem : [https://github.com/NiteshSK/programmingInterview/blob/master/src/main/java/com/practice/codingInterviewBook/SumProblems/FourSum/FourSum.java]
+    > Four Sum Problem
       > input :
       > output :
   
   > Max Sum Contiguous Subarray : [https://github.com/NiteshSK/programmingInterview/blob/master/src/main/java/com/practice/interviewBit/MaxSumContiguousSubarray.java]
+  
     > input : [1, 2, 3, 4, -10]
     > output : 10
     
