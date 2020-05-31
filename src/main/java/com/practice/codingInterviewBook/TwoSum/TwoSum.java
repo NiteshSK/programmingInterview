@@ -1,4 +1,4 @@
-package com.practice.codingInterviewBook.Array;
+package com.practice.codingInterviewBook.TwoSum;
 
 import java.util.HashMap;
 
@@ -9,10 +9,10 @@ import java.util.HashMap;
  * */
 public class TwoSum {
     public static void main(String [] args){
-        int[] sampleInput = {1,3,5,7,9,-1} 
+        int[] sampleInput = {1,3,5,7,9,-1};
         int target = 8;
         TwoSum.getTwoSumNaive(sampleInput,target);
-        TwoSum.getTwoSumByBetterApproach(sampleInput,target)
+        TwoSum.getTwoSumByBetterApproach(sampleInput,target);
     }
 
     /*
@@ -44,7 +44,7 @@ public class TwoSum {
         if(array == null || array.length == 0){
             return null;
         }
-        HashMap<Integer,Integer> hashMap = new HashMap<>();
+        HashMap<Integer,Integer> hashMap = new HashMap<Integer,Integer>();
         int[] ret = new int[2];
         for(int i = 0;i<array.length;i++){
             if(hashMap.containsKey(array[i])){
