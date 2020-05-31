@@ -1,4 +1,4 @@
-package com.mycompany.assessment.java;
+package com.practice.codingInterviewBook.SumProblems.TwoSum;
 
 import java.util.HashMap;
 
