@@ -1,4 +1,4 @@
-package com.practice.codingInterviewBook.TwoSum;
+package com.practice.codingInterviewBook.SumProblems.TwoSum;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -44,7 +44,6 @@ public class TwoSum {
     private static int[] getTwoSumByBetterApproach(int[] array, int target){
         if(array == null || array.length == 0){
             return null;
-        }
         }
         HashMap<Integer,Integer> hashMap = new HashMap<Integer, Integer>();
 
