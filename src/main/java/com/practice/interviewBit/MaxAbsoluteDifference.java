@@ -17,7 +17,37 @@ public class MaxAbsoluteDifference {
         int[] arr = {1,3,-1};
         System.out.println(maxArr(arr));
     }
+
+    /**
+     * Complexity of this method os O(n) as we can see that it has only one for loop.
+     * @param A
+     * @return
+     */
     static int maxArr(int [] A){
+        int max1 = Integer.MIN_VALUE;
+        int min1 = Integer.MAX_VALUE;
+        int max2 = Integer.MIN_VALUE;
+        int min2 = Integer.MAX_VALUE;
+
+        for (int i = 0; i < A.length; i++)
+        {
+
+            max1 = Math.max(max1, A[i] + i);
+            min1 = Math.min(min1, A[i] + i);
+            max2 = Math.max(max2, A[i] - i);
+            min2 = Math.min(min2, A[i] - i);
+        }
+        return Math.max(max1 - min1, max2 - min2);
+
+    }
+
+    /**
+     * This is used to calculate the absolute Differnce in an array element.
+     * Although time complexity of this solution in O(n^2)
+     * @param A
+     * @return
+     */
+    static int maxArr_On2(int [] A){
         int indexDiffernce = 0;
         int arrayElementDiiference = 0;
         int absarrayElementDiiference = 0;
@@ -26,15 +56,6 @@ public class MaxAbsoluteDifference {
         if (A.length ==1){
             return 0;
         }
-        while(i<j){
-
-
-            System.out.println("j : "+j+" : i :"+i);
-            j--;
-            i++;
-
-        }
-
         for(i = 0; i< A.length; i++){
             for ( j = i+1; j< A.length; j++){
                 indexDiffernce = j-i;
@@ -44,7 +65,6 @@ public class MaxAbsoluteDifference {
                 }else{
                     absarrayElementDiiference = arrayElementDiiference + indexDiffernce;
                 }
-//                System.out.println("indexDiffernce : "+indexDiffernce+ ": absarrayElementDiiference :"+absarrayElementDiiference);
                 if(max_ending_here < absarrayElementDiiference){
                     max_ending_here = absarrayElementDiiference;
                 }
