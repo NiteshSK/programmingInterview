@@ -27,3 +27,8 @@ Questions Solved :
     > input : [1, 2, 3, 4, -10]
     > output : 10
     
+  > Maximum Absolute Difference : [https://github.com/NiteshSK/programmingInterview/blob/master/src/main/java/com/practice/interviewBit/MaxAbsoluteDifference.java]
+  
+    > input : [1,3,-1]
+    > output : 5
+    
