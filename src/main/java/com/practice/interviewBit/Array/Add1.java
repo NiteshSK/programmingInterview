@@ -1,4 +1,4 @@
-package com.practice.interviewBit;
+package com.practice.interviewBit.Array;
 
 public class Add1 {
     public static void main(String[] args) {
