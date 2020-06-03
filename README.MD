@@ -43,3 +43,9 @@ Questions Solved :
     Sample Input/Output
     > input : [3, 1, 3]
     > output : [3,2]
+  
+  > Max Non Negative Sub Array : [https://github.com/NiteshSK/programmingInterview/blob/master/src/main/java/com/practice/interviewBit/Array/MaxNonNegativeSubArray.java]
+  
+    Sample Input/Output:
+    > input : [1, 2, 5, -7, 2, 3]
+    > output : [1, 2, 5]
