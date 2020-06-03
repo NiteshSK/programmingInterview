@@ -49,3 +49,15 @@ Questions Solved :
     Sample Input/Output:
     > input : [1, 2, 5, -7, 2, 3]
     > output : [1, 2, 5]
+    
+  > Find Duplicate in an Array : [https://github.com/NiteshSK/programmingInterview/blob/master/src/main/java/com/practice/interviewBit/Array/FindDuplicateinArray.java]
+  
+    Sample Input/Output
+    > input : [3,4,5,1,1]
+    > output : 1
+
+  > First Missing Integer :[https://github.com/NiteshSK/programmingInterview/blob/master/src/main/java/com/practice/interviewBit/Array/FirstMissingInteger.java]
+    
+    Sample Input/Output
+    > input : [1,2,0]
+    > output : 3
