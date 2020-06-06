@@ -61,3 +61,9 @@ Questions Solved :
     Sample Input/Output
     > input : [1,2,0]
     > output : 3
+
+  > Max Distance: [https://github.com/NiteshSK/programmingInterview/blob/master/src/main/java/com/practice/interviewBit/Array/MaxDistance.java]
+    
+    Sample Input
+     > input : [3,5,4,2]
+     > output : 2
