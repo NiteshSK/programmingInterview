@@ -14,6 +14,7 @@ public class insertIntervals {
         ArrayList<Interval> arrayList = new ArrayList<Interval>();
         arrayList.add(new Interval(2,4));
         arrayList.add(new Interval(3,6));
+        
         arrayList.add(new Interval(11,14));
         arrayList.add(new Interval(5,8));
         arrayList.add(new Interval(7,9));
