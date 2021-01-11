@@ -13,8 +13,9 @@ Questions Solved :
   
     > Two Sum Problem 
       Sample Input/Output
-      > input : 
-      > output :
+      > input : {1,4,4,5,8}
+      > target : 5
+      > output : 0,1
       
     > Three Sum Problem
       Sample Input/Output
